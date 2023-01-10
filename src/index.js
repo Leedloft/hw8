@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import {BrowserRouter, Route, Switch, HashRouter} from 'react-router-dom'
 import PostPage from './components/post2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <Route exact path = '/'>
         <App />
@@ -17,7 +17,7 @@ root.render(
         <PostPage />
       </Route>
     </Switch>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 reportWebVitals();
