@@ -1,7 +1,7 @@
 {
   "name": "classwork1",
   "version": "0.1.0",
-  "homepage": "https://github.com/Leedloft/hw8",
+  "homepage": "https://Leedloft.github.io/hw8",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
